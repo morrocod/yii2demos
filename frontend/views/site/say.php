@@ -7,5 +7,6 @@
  */
 
 use yii\helpers\Html;
+?>
 
-echo Html::encode($message);
+<?= Html::encode($message) ?>
