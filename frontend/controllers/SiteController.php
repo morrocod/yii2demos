@@ -178,6 +178,7 @@ class SiteController extends Controller
     {
         $model = new EntryForm();
 
+
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
             // valid data is received in $model
 
@@ -187,3 +188,4 @@ class SiteController extends Controller
         }
     }
 }
+
